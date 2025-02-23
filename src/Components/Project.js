@@ -5,8 +5,12 @@ import Footer from './Footer';
 import Todoapp from '../Images/Todoapp.png';
 import Game from '../Images/Game.png';
 import MusicPlayer from '../Images/MusicPlayer.png'
+import Suduku from '../Images/Suduku.png'
+import Snake from '../Images/Snake.png'
+import Rps from '../Images/Rps.png'
 
-const Project = () => {
+
+function Project() {
   return (
     <>
       <Headers />
@@ -44,6 +48,36 @@ const Project = () => {
           </p></div>
         <div className='project-image'>
           <img src={MusicPlayer} alt="Music Player" />
+        </div>
+      </div>
+      <div className='project-info'>
+        <div className='project-details'>
+          <h3 style={{ margin: "20px" }}> Snake Game 04</h3>
+          <p className='project-summary'>
+            The Music Player project is a feature-rich web application designed to provide users with an enjoyable and intuitive music listening experience. This project leverages HTML, CSS, and JavaScript to create a seamless interface for playing, pausing, and navigating through songs. It aims to offer a modern and user-friendly design, combined with essential music player functionalities.
+          </p></div>
+        <div className='project-image'>
+          <img src={Snake} alt="Snake-game" />
+        </div>
+      </div>
+      <div className='project-info'>
+        <div className='project-details'>
+          <h3 style={{ margin: "20px" }}> Rock Paper Scissor 05</h3>
+          <p className='project-summary'>
+            The Music Player project is a feature-rich web application designed to provide users with an enjoyable and intuitive music listening experience. This project leverages HTML, CSS, and JavaScript to create a seamless interface for playing, pausing, and navigating through songs. It aims to offer a modern and user-friendly design, combined with essential music player functionalities.
+          </p></div>
+        <div className='project-image'>
+          <img src={Rps} alt="Tic-tac-toe" />
+        </div>
+      </div>
+      <div className='project-info'>
+        <div className='project-details'>
+          <h3 style={{ margin: "20px" }}>Suduku 06</h3>
+          <p className='project-summary'>
+            The Music Player project is a feature-rich web application designed to provide users with an enjoyable and intuitive music listening experience. This project leverages HTML, CSS, and JavaScript to create a seamless interface for playing, pausing, and navigating through songs. It aims to offer a modern and user-friendly design, combined with essential music player functionalities.
+          </p></div>
+        <div className='project-image'>
+          <img src={Suduku} alt="Suduku" />
         </div>
       </div>
       <Footer />

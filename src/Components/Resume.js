@@ -18,6 +18,12 @@ function Resume() {
                             <p>Worked as a React.js Developer, focusing on building and maintaining dynamic and responsive web applications. Responsibilities included designing user interfaces, integrating APIs, and optimizing performance.</p>
                         </div>
                     </div>
+                    <div className="resume-exp">
+                        <div className="year">2024 - 2025</div>
+                        <div className="description">
+                            <p> Working as a Programmer in Sphoorthy Engineering College Nadergul</p>
+                        </div>
+                    </div>
                 </div>
                 <div style={{ border: "1px solid black" }}></div>
                 <div className="resume-details">
